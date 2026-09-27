@@ -1,0 +1,35 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.1
+torchvision==0.19.1
+
+# Core ML/data packages
+matplotlib
+numpy
+pandas
+tqdm
+scikit-learn
+pillow
+
+# Hugging Face / Qwen3-VL
+transformers @ git+https://github.com/huggingface/transformers
+accelerate
+safetensors
+huggingface_hub
+qwen-vl-utils
+flash-attn
+
+# Useful for tokenizers / chat templates / JSON parsing
+sentencepiece
+protobuf
+tokenizers
+einops
+
+# NLP / knowledge retrieval (precompute_inputs.py)
+spacy
+datasets
+sentence-transformers
+rank-bm25
+
+# Dataset building
+kaggle

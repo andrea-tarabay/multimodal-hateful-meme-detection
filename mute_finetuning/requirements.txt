@@ -1,0 +1,38 @@
+# Core ML stack  (install with: pip install -r requirements.txt)
+torch>=2.1.0
+torchvision>=0.16.0
+
+# BLIP-2, MemeLens, and tokenizers
+transformers>=4.36.0
+accelerate>=0.25.0
+sentencepiece
+protobuf
+
+# Data / image handling
+Pillow>=9.1.0
+numpy>=1.24
+pandas
+openpyxl
+
+# Metrics / plots
+scikit-learn>=1.3
+matplotlib
+
+# Dataset inspection / loading
+datasets
+
+# Progress bars
+tqdm
+
+# Knowledge retrieval (input_and_context.py)
+spacy>=3.0
+rank_bm25
+sentence-transformers
+
+# HTTP requests for Wikidata / Wikipedia APIs
+requests
+beautifulsoup4
+
+# Optional but often useful on cluster
+safetensors
+einops
